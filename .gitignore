@@ -1,0 +1,15 @@
+# ignore data files
+sources/data/*
+sources/data/CCTV_data/*
+sources/data/CCTV_log/*
+sources/data/registered_data/*
+sources/temp/*
+
+!sources/data/.gitkeep
+!sources/data/CCTV_data/.gitkeep
+!sources/data/CCTV_log/.gitkeep
+!sources/data/registered_data/.gitkeep
+!sources/temp/.gitkeep
+
+# ignore __pycache__ folder
+/**/__pycache__/*
